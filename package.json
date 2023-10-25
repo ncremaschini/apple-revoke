@@ -1,0 +1,19 @@
+{
+  "name": "apple-revoke",
+  "version": "1.0.0",
+  "description": "apple token revoker",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Nicola Cremaschini",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "qs": "^6.11.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
