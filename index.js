@@ -13,11 +13,9 @@ const kid = process.env.KEY_ID;
 const key_filename = process.env.KEY_FILENAME;
 
 let client_secret = makeJWT()
-console.log("client secret:" + client_secret);
 
 getRefreshToken(client_secret)
   .then( refresh_token => {
-    console.log("refresh token: " +  refresh_token)
     if(refresh_token){
       revokeToken(client_secret, refresh_token);
     }
