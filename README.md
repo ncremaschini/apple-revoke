@@ -11,3 +11,6 @@ the application uses dotenv plugin to get from env following values
 - CLIENT_ID
 - KEY_ID 
 - KEY_FILENAME
+
+## RUN
+`node index.js`
